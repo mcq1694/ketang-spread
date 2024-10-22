@@ -1,0 +1,15 @@
+{
+  "name": "uni-default-template",
+  "appid": "__UNI__B82DC20",
+  "description": "",
+  "versionName": "2.2.8",
+  "versionCode": 228,
+  "transformPx": false,
+  "vueVersion": "3",
+  "mp-toutiao": {
+    "appid": "ttf726819b681e5dd1"
+  },
+  "mp-kuaishou": {
+    "appid": "ks712976118310707073"
+  }
+}

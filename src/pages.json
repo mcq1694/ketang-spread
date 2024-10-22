@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home"
+    },
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/mine/mine"
+    },
+    {
+      "path": "pages/creatorCenter/index"
+    },
+    {
+      "path": "pages/purchased/index"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F2F2F2",
+    "backgroundColor": "#ffffff",
+    "navigationBarTitleText": "",
+    "navigationStyle": "default",
+    "transparentTitle": "always"
+  },
+  "tabBar": {
+    "color": "#D0D3E5",
+    "selectedColor": "#FE2C55",
+    "backgroundColor": "#FFF",
+    "borderStyle": "#FFF",
+    "iconWidth": "24px",
+    "spacing": "0px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/purchased/index",
+        "text": "已购",
+        "iconPath": "static/tab/purchased.png",
+        "selectedIconPath": "static/tab/purchased-active.png"
+      },
+      {
+        "pagePath": "pages/creatorCenter/index",
+        "text": "创作者中心",
+        "iconPath": "static/tab/creator.png",
+        "selectedIconPath": "static/tab/creator-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "static/tab/user.png",
+        "selectedIconPath": "static/tab/user-active.png"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": false,
+    "custom": {
+      "^kt-(.*)": "/@/components/kt-$1/kt-$1.vue"
+    }
+  },
+  "condition": {
+    "current": -1,
+    "list": []
+  }
+}
